@@ -73,7 +73,6 @@ if __name__ == '__main__':
  	clearArray(strip)
 	strip.show()
 	while True:
-		#nputPin = GPIO.input(04)
 		#print(str(inputPin))
 		if not GPIO.input(04):
 			#print("Red Button Pressed")
